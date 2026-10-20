@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+!.env.sample
+__pycache__/
+*.py[cod]
+node_modules/
+*.log
+config/extend.md
+.DS_Store

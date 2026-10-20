@@ -1,0 +1,4 @@
+interface:
+  display_name: "技能重铸"
+  short_description: "深入理解并重构已有技能，梳理依赖、清理无关信息、对比验证并提出改进建议"
+  default_prompt: "使用 $skill-reforge 分析提供的技能，按目标目录结构重构，保留必要法律声明，并进行功能对比、测试验证与改进评估。"

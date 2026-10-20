@@ -1,0 +1,5 @@
+{
+  "exclude_dirs": [".git", ".venv", "venv", "node_modules", "__pycache__", ".pytest_cache"],
+  "max_text_bytes": 1048576,
+  "sensitive_names": [".env", ".env.local", ".env.production", "credentials.json", "secrets.json", "id_rsa", "id_ed25519"]
+}
