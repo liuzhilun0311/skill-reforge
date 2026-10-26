@@ -1,4 +1,6 @@
-# 技能重铸
+# 技能重铸 (skill-reforge)
+
+英文调用标识是 `$skill-reforge`，界面显示为“技能重铸 (skill-reforge)”。
 
 `skill-reforge` 用于分析、整理、迁移和改进已有技能。输入一个技能目录，
 输出一个结构清楚的技能，以及有证据支持的对比报告和改进建议。
@@ -49,7 +51,7 @@
 skill-reforge/
 |-- README.md                  使用、安装与配置
 |-- SKILL.md                   模型执行说明
-|-- agents/openai.yaml         中文界面名称与调用提示词
+|-- agents/openai.yaml         中英文界面名称与调用提示词
 |-- config/settings.json       盘点及基线文件选择
 |-- scripts/inspect_skill.py    只读盘点工具
 |-- scripts/prepare_baseline.py 基线执行副本
